@@ -33,10 +33,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guidesmiths/block-sequence-compliance-tests.git"
+    "url": "git+https://github.com/guidesmiths/block-sequence-reference.git"
   },
   "bugs": {
-    "url": "https://github.com/guidesmiths/block-sequence-compliance-tests/issues"
+    "url": "https://github.com/guidesmiths/block-sequence-reference/issues"
   },
-  "homepage": "https://github.com/guidesmiths/block-sequence-compliance-tests#readme"
+  "homepage": "https://github.com/guidesmiths/block-sequence-reference#readme"
 }
