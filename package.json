@@ -6,7 +6,9 @@
   "scripts": {
     "test": "node tests/compliance.tests.js | tap-spec",
     "lint": "eslint .",
-    "prepush": "npm run lint && npm test"
+    "prepush": "npm run lint && npm test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "Block",
@@ -26,7 +28,8 @@
     "tap-spec": "^4.1.1"
   },
   "dependencies": {
-    "lodash": "^4.11.1"
+    "lodash": "^4.11.1",
+    "snyk": "^1.316.1"
   },
   "directories": {
     "test": "tests"
@@ -38,5 +41,6 @@
   "bugs": {
     "url": "https://github.com/guidesmiths/block-sequence-reference/issues"
   },
-  "homepage": "https://github.com/guidesmiths/block-sequence-reference#readme"
+  "homepage": "https://github.com/guidesmiths/block-sequence-reference#readme",
+  "snyk": true
 }
